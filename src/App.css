@@ -99,11 +99,14 @@
 
 .reset button {
 	border: none;
-	background: red;
 	font-size: 45px;
 	font-family: VT323;
 	font-weight: bold;
 	margin-left: 115px;
+}
+.image {
+	width: 50px;
+	height: 50px;
 }
 
 .reset button:active {
