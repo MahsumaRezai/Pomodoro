@@ -161,7 +161,6 @@ class App extends Component {
                   <div className="reset">
                     <button onClick={this.handleReset}>
                       <img src={image} className="image" alt="" />
-
                     </button>
                   </div>
                   <div className="break-length">
