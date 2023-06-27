@@ -6,31 +6,6 @@
 	box-shadow: 1px 1px 1px gainsboro;
 	border-radius: 5px;
 
-
-}
-
-.buttontwo {
-	padding: 5px 10px 5px 10px;
-	margin-top: 90%;
-	border: none;
-	background: white;
-	font-size: 45px;
-	border: 1px solid gainsboro;
-	font-family: sans-serif;
-	font-weight: bold;
-	text-align: center;
-}
-
-.button {
-	padding: 5px 10px 5px 10px;
-	margin-top: 90%;
-	border: 1px solid gainsboro;
-	background: white;
-	font-size: 45px;
-	font-family: sans-serif;
-	font-weight: bold;
-	text-align: center;
-
 }
 
 .pomodoro button:active {
@@ -140,7 +115,7 @@
 
 .break-time button {
 	border: none;
-	background: #fff;
+	background: whitesmoke;
 	box-shadow: 1px 1px 1px #888888;
 }
 
