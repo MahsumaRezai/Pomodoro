@@ -1,7 +1,8 @@
 
 .text {
   text-align: center;
-  color: white;
+  color: black;
   font-size: 50px;
-  font-family: VT323;
+  font-family: sans-serif;
+  font-weight: bold;
 }
