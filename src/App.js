@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import './App.css';
 import Card from "./Compontens/UI/Card";
 import Header from "./Compontens/UI/Header";
+import image from './image/reset.jpg'
 const { Component } = React;
 
 class App extends Component {
@@ -158,23 +159,26 @@ class App extends Component {
                 </button>
               </div>
               <div className="content">
-              <div className="contain-it">
-                <div className="reset">
-                  <button onClick={this.handleReset}>Reset</button>
-                </div>
-                <div className="break-length">
-                  <div className="break-time">
+                <div className="contain-it">
+                  <div className="reset">
+                    <button onClick={this.handleReset}>
+                      <img src={image} className="image" />
 
-                    <button onClick={this.increaseBreakTime}>+</button>
-                    <div className="break-text">
-                      {this.calculateTime(this.breakTime)}
+                    </button>
+                  </div>
+                  <div className="break-length">
+                    <div className="break-time">
+
+                      <button onClick={this.increaseBreakTime}>+</button>
+                      <div className="break-text">
+                        {this.calculateTime(this.breakTime)}
+                      </div>
+                      <button onClick={this.decreaseBreakTime}>-</button>
                     </div>
-                    <button onClick={this.decreaseBreakTime}>-</button>
                   </div>
                 </div>
               </div>
-            </div>
-            <div>
+              <div>
               </div>
               {this.dev
                 ? <table>
