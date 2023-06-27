@@ -14,7 +14,7 @@
 	background: white;
 	font-size: 45px;
 	border: 1px solid gainsboro;
-	font-family: VT323;
+	font-family: sans-serif;
 	font-weight: bold;
 	text-align: center;
 }
@@ -25,13 +25,13 @@
 	border: 1px solid gainsboro;
 	background: white;
 	font-size: 45px;
-	font-family: VT323;
+	font-family: sans-serif;
 	font-weight: bold;
 	text-align: center;
 }
 
 .pomodoro button:active {
-	background: #079fb0;
+	background: #c30232;
 	box-shadow: 0 0 0 transparent;
 }
 
@@ -78,14 +78,14 @@
 .start-pause button {
 	border: none;
 	background: #fff;
-	font-size: 45px;
-	font-family: VT323;
+	font-size: 40px;
+	font-family: sans-serif;
 	font-weight: bold;
 	margin: 30px;
 }
 
 .start-pause button:active {
-	background: #079fb0;
+	background: #c30232;
 	box-shadow: 0 0 0 transparent;
 }
 
