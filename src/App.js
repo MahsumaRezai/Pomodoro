@@ -141,13 +141,11 @@ class App extends Component {
         <Card>
           <div>
             <div className="pomodoro">
-
               <div className="timer">
                 {this.breakStarted
                   ? this.calculateTime(this.state.breakTime)
                   : this.calculateTime(this.state.time)}
               </div>
-
             </div>
             <div>
               <div className="start-pause">
@@ -162,7 +160,7 @@ class App extends Component {
                 <div className="contain-it">
                   <div className="reset">
                     <button onClick={this.handleReset}>
-                      <img src={image} className="image" />
+                      <img src={image} className="image" alt="" />
 
                     </button>
                   </div>
