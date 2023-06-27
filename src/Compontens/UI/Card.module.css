@@ -1,0 +1,53 @@
+.card {
+    background: #333;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid gray;
+    font: inherit;
+}
+
+@media screen and (max-width:1500px) {
+    .card {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .card {
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width:850px) {
+    .card {
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .card {
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width:540px) {
+    .card {
+        width: 90%;
+        padding: 50px;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .card {
+        width: 100%;
+        padding: 50px;
+    }
+
+}
